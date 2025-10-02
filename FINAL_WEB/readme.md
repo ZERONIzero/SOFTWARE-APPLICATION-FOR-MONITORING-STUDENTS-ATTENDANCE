@@ -39,6 +39,7 @@
 
 ## 📽 Демонстрация
 
+Ссылка [RUTUBE](https://rutube.ru/video/private/b47778432e2d93ca91ed0149f4cd9eaa/?p=eBcGo_YZDznLwOSLxfY9hA)
 
 ## 🛠 Установка
 
