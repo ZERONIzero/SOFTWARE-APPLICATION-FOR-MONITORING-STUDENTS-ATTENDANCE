@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <title>{{person}}</title>
+    <link rel="stylesheet" href="/main-menu.css">
+    <link rel="icon" href="/drawable/menu-id-svg.svg" type="image/svg">
+    <link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+    <body>
+        <nav class="navbar fixed-bottom" style="background-color: #21222A" id="m_nav">
+            <div class="container-fluid">
+                <span class="navbar-brand">{{person}}</span>
+                <a href="/logout" class="btn btn-danger">exit</a>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+                <div class="col-auto col-md-3 col-xl-3 px-sm-0 px-0 m-0" style="background-color:#BCBDC0;" id="info-tab">
+                    <div class="d-flex flex-column align-items-center align-items-sm-start text-white min-vh-100 info-tab">
+                        <canvas id="clock-label" ></canvas>
+                        <ul class="nav flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start w-100">
+                            {{!-- <li id="group_un">1216 group</li> --}}
+                        </ul>
+                        <br>
+                        <div class="dropdown pb-4">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" style="margin-left: 20px; margin-right:auto;" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://www.gravatar.com/avatar/{{name}}?d=identicon&s=1024" alt="hugenerd" width="50" height="50" class="rounded-circle">
+                                <span class="d-none d-sm-inline mx-1">{{person}}</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" style="margin-left: 30px;">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/logout">Sign out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-0 function-tab" id="function-tab">
+                    <div class="row row-cols-2" id="container-btn">
+                        <a class="col" id="col-1" href="student/schedule"><p id="col-t1">Расписание</p><img src="/drawable/schedule.svg" id="icon-btn1"></a>
+                        <a class="col" id="col-2" href="student/setting"><p id="col-t2">Настройки</p><img src="/drawable/setting.svg" id="icon-btn2"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/design-js/clock_canvas_s.js" ></script>
+        {{!-- <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script> --}}
+    </body>
+</html>
