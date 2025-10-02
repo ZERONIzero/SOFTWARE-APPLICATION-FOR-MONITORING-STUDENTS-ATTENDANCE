@@ -1,0 +1,106 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #BCBDC0;
+}
+
+.function-tab{
+    background-color: #BCBDC0;
+    color: black;
+}
+
+.info-tab{
+    border-radius: 0px 20px 20px 0px;
+    background-color: #21222A;
+}
+
+a p{
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 17px;
+}
+
+#icon-btn1{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+
+#icon-btn2{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+
+#icon-btn3{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+
+#icon-btn4{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+}
+
+#col-1:hover{
+    background: radial-gradient(circle, rgba(249,65,68,1) 20%, rgba(255,112,116,1) 100%);
+
+    #icon-btn1{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -moz-transform: scale(1);
+    }
+}
+
+#col-2:hover{
+    background: radial-gradient(circle,#277CA1 20%,#79B6D0 100%);
+
+    #icon-btn2{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -moz-transform: scale(1);
+    }
+}
+
+#col-3:hover{
+    background: radial-gradient(circle,#F8961E 20%,#FCC582 100%);
+
+    #icon-btn3{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -moz-transform: scale(1);
+    }
+}
+
+#col-4:hover{
+    background: radial-gradient(circle,#90BE6D 20%,#C1DFAA 100%);
+
+    #icon-btn4{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -moz-transform: scale(1);
+    }
+}
+
+#col-t3,#col-t4 {
+    font-size: 14px;
+}
+
+.fixed-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
